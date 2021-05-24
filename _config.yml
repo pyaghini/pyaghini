@@ -1,1 +1,34 @@
 theme: jekyll-theme-minimal
+
+title: "Pooria Yaghini's Homepage"
+subtitle: "Version 2.0"
+description: "This Hopepage shares some of my projects' informations."
+
+repository: "https://github.com/pyaghini"
+
+
+#logo: [Location of the logo]
+show_downloads: "true"
+#google_analytics: [Your Google Analytics tracking ID]
+
+minimal_mistakes_skin: "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum" "sunrise"
+
+teaser: /assets/images/500x300.png
+
+logo: "/assets/images/logo.png"
+
+masthead_title: "My Custom Title"
+
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      show_date: true
+
+author:
+  name     : "Pooria Yaghini"
+  avatar   : "/assets/images/pooria.jpg"
+  bio      : "TBD"
+  location : "CA, USA"
